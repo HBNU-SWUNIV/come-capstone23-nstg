@@ -5,17 +5,22 @@
 - 20181594 이규호
 
 ## <u>Teamate</u> Project Background
+- 드론 해킹 공격 현황  
+  ![기사](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/121182760/e33e6234-01b9-493f-a2f5-62811af1240e)
+  
 - ### 필요성
-  - OOO
-  - OOO
-- ### 기존 해결책의 문제점
-  - OOO
-  - OOO
+  사람의 개입 없이 주행이 가능한 무인이동체에 대한 시장 수요가 급증함에 따라 관련 기술들이 주목받고 있다.  
+  특히, 무인비행체 즉 드론은 물품 배송, 군사 목적 등 다양한 분야에서 폭넓게 활용되고 있는 만큼, 다양한 보안 이슈가 발생한다.  
+  따라서, 드론 네트워크를 대상으로 하는 공격의 원리 및 구현 방법에 대한 체계적인 분석을 통해 대응방안을 마련할 필요가 있다.  
+  그중 Hijacking은 인증해제 및 Evil Twin 공격과 연결지어 간단하게 구현될 수 있기때문에, 이러한 공격들의 시발점이 되는 인증해제 공격을 분석하여 대응방안을 제안하고자 한다.
   
 ## System Design
   - ### System Requirements
-    - OOO
-    - OOO
+    ![인증해제 탐지](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/121182760/daa52acd-5fd1-46c7-b40e-fab2052b40f7)  
+    - 공격 도구에서 인증해제 공격이 구현되어 AP와 Client의 연결을 지속해서 해제할 수 있어야 함
+    - sniffer가 Wi-Fi 네트워크에서 흐르는 모든 패킷 데이터를 저장할 수 있어야 함
+    - 패킷 데이터를 csv 파일로 변환할 수 있어야 함
+    - 패킷 데이터에서 인증해제 공격을 정확하게 검출할 수 있어야 함
     
 ## Case Study
   - ### Description
