@@ -16,6 +16,10 @@
   
 ## System Design
   - ### System Requirements
+    ![Evil Twin_Hijacking](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/7e5b14f8-c7f4-452d-8f4f-06935722df1b)
+    - Evil Twin 공격 시 드론과 지상통제센터의 연결이 드론과 Rogue AP로 변환 되어야 함
+    - Hijacking 공격 시 드론이 지상통제센터가 지시한 방향으로 이동 하지 않아야 함
+    
     ![인증해제 탐지](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/121182760/daa52acd-5fd1-46c7-b40e-fab2052b40f7)  
     - 공격 도구에서 인증해제 공격이 구현되어 AP와 Client의 연결을 지속해서 해제할 수 있어야 함
     - sniffer가 Wi-Fi 네트워크에서 흐르는 모든 패킷 데이터를 저장할 수 있어야 함
