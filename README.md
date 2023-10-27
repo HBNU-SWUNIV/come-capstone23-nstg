@@ -12,7 +12,7 @@
   사람의 개입 없이 주행이 가능한 무인이동체에 대한 시장 수요가 급증함에 따라 관련 기술들이 주목받고 있다.  
   특히, 무인비행체 즉 드론은 물품 배송, 군사 목적 등 다양한 분야에서 폭넓게 활용되고 있는 만큼, 다양한 보안 이슈가 발생한다.  
   따라서, 무선네트워크의 드론 대상으로 하는 공격의 원리 및 구현 방법에 대한 체계적인 분석을 통해 대응방안을 마련할 필요가 있다.  
-  그 중 Hijacking과 Evil Twin 공격은 인증해제와 연결지어 구현될 수 있기때문에, 이러한 공격들의 시발점이 되는 인증해제 공격을 분석하여 대응방안을 제안하고자 한다.
+  그 중 Hijacking과 Evil Twin 공격은 인증해제와 연결지어 구현될 수 있기 때문에, 이러한 공격들의 시발점이 되는 인증해제 공격을 분석하여 대응 방안을 제안하고자 한다.
   
 ## System Design
   - ### System Requirements
@@ -39,7 +39,7 @@
 - Hijacking 공격으로 인해 주입 된 패킷으로 드론이 지상통제센터가 의도한 방향으로 이동 불가
 ![Hijacking](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/65a919a4-1933-4601-aba4-6c44245c0ebe)
 
-- Evil Twin, Hijacking 공격의 시발점인 인증해제 공격 LSTM 모델을 이용해 탐지
+- LSTM 모델을 이용한 인증해제 공격 탐지율
 ![LSTM model](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/e8b5812d-68b5-4822-a0e1-8f20581afbd0)
 
 
