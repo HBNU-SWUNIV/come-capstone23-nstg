@@ -32,17 +32,17 @@
   
 ## Conclusion
   - 드론 네트워크 대상으로 하는 공격 Evil Twin, Hijacking 구현을 통한 위험성 확인
+    - Evil Twin 공격으로 Rogue AP에 지상통제센터(GCS:Ground Control System)의 드론 통제권 탈취  
+    ![Evil Twin](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/110e952d-4b1c-4ade-8cd2-e58bb427a52c)
+
+    - Hijacking 공격으로 인해 주입 된 패킷으로 드론이 지상통제센터가 의도한 방향으로 이동 불가
+    ![Hijacking](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/65a919a4-1933-4601-aba4-6c44245c0ebe)
+
   - Evil Twin, Hijacking 공격의 기반이 되는 인증해제 공격 분석
+    
   - LSTM 모델을 이용한 인증해제 공격 탐지, 그로 인한 Evil Twin, Hijacking 공격 예방
-
-- Evil Twin 공격으로 Rogue AP에 지상통제센터(GCS:Ground Control System)의 드론 통제권 탈취  
-![Evil Twin](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/110e952d-4b1c-4ade-8cd2-e58bb427a52c)
-
-- Hijacking 공격으로 인해 주입 된 패킷으로 드론이 지상통제센터가 의도한 방향으로 이동 불가
-![Hijacking](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/65a919a4-1933-4601-aba4-6c44245c0ebe)
-
-- LSTM 모델을 이용한 인증해제 공격 탐지율
-![LSTM model](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/e8b5812d-68b5-4822-a0e1-8f20581afbd0)
+    - LSTM 모델을 이용한 인증해제 공격 탐지율
+    ![LSTM model](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/e8b5812d-68b5-4822-a0e1-8f20581afbd0)
   
 ## Project Outcome
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 Evil Twin 공격 구현에 관한 연구"
