@@ -27,8 +27,10 @@
   
   
 ## Conclusion
-  - ### OOO
-  - ### OOO
+  - 드론 네트워크 대상으로 하는 공격 Evil Twin, Hijacking 구현을 통한 위험성 확인
+  - Evil Twin, Hijacking 공격의 기반이 되는 인증해제 공격 분석
+  - LSTM 모델을 이용한 인증해제 공격 탐지, 그로 인한 Evil Twin, Hijacking 공격 예방
+    
   
 ## Project Outcome
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 Evil Twin 공격 구현에 관한 연구"
