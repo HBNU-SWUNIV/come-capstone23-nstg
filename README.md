@@ -48,6 +48,15 @@
 
 
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 Evil Twin 공격 구현에 관한 연구"
+![한국통신학회 2023년 하계학술대회_2](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/1f2b4fec-3789-465e-9393-9ee736b23b56)
+
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 드론 하이재킹 구현에 관한 연구"
+![한국통신학회 2023년 하계학술대회](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/01f1f1ee-1b59-40af-993e-04f0517f697a)
+
 - 한국통신학회 2023년 하계학술대회 우수상 수상
+![한국통신학회 2023년 하계학술대회_우수상](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/6e941bed-889f-458e-aee8-508d87947c90)
+
 - 한국통신학회 2023년 추계학술대회 "LSTM 기반의 WiFi 인증 해제 공격 검출에 관한 연구"
+![한국통신학회 2023년 추계학술대회](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/71a27872-1110-4b79-bd4d-3e766c7ab028)
+
+
