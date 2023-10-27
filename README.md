@@ -11,8 +11,8 @@
 - ### 필요성
   사람의 개입 없이 주행이 가능한 무인이동체에 대한 시장 수요가 급증함에 따라 관련 기술들이 주목받고 있다.  
   특히, 무인비행체 즉 드론은 물품 배송, 군사 목적 등 다양한 분야에서 폭넓게 활용되고 있는 만큼, 다양한 보안 이슈가 발생한다.  
-  따라서, 드론 네트워크를 대상으로 하는 공격의 원리 및 구현 방법에 대한 체계적인 분석을 통해 대응방안을 마련할 필요가 있다.  
-  그중 Hijacking은 인증해제 및 Evil Twin 공격과 연결지어 간단하게 구현될 수 있기때문에, 이러한 공격들의 시발점이 되는 인증해제 공격을 분석하여 대응방안을 제안하고자 한다.
+  따라서, 무선네트워크의 드론 대상으로 하는 공격의 원리 및 구현 방법에 대한 체계적인 분석을 통해 대응방안을 마련할 필요가 있다.  
+  그 중 Hijacking과 Evil Twin 공격은 인증해제와 연결지어 구현될 수 있기때문에, 이러한 공격들의 시발점이 되는 인증해제 공격을 분석하여 대응방안을 제안하고자 한다.
   
 ## System Design
   - ### System Requirements
@@ -33,12 +33,17 @@
     
   
 ## Project Outcome
-![스크린샷 2023-10-27 173548](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/881da850-9191-45a4-bc39-fa50572528a9)
-![스크린샷 2023-10-27 173645](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/65b3e837-5795-4833-9cd4-16c4c5df7c5e)
-![스크린샷 2023-10-27 173745](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/b24e212c-a060-4343-860c-0ff488b48433)
+- Evil Twin 공격으로 Rogue AP에 지상통제센터(GCS:Ground Control System)의 드론 통제권 탈취  
+![Evil Twin](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/110e952d-4b1c-4ade-8cd2-e58bb427a52c)
 
+- Hijacking 공격으로 인해 주입 된 패킷으로 드론이 지상통제센터가 의도한 방향으로 이동 불가
+![Hijacking](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/65a919a4-1933-4601-aba4-6c44245c0ebe)
+
+- Evil Twin, Hijacking 공격의 시발점인 인증해제 공격 LSTM 모델을 이용해 탐지
+![LSTM model](https://github.com/HBNU-SWUNIV/come-capstone23-nstg/assets/83878234/e8b5812d-68b5-4822-a0e1-8f20581afbd0)
 
 
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 Evil Twin 공격 구현에 관한 연구"
 - 한국통신학회 2023년 하계학술대회 "와이파이 기반 드론 네트워크에서 드론 하이재킹 구현에 관한 연구"
 - 한국통신학회 2023년 하계학술대회 우수상 수상
+- 한국통신학회 2023년 추학술대회 "와이파이 기반 드론 네트워크에서 드론 하이재킹 구현에 관한 연구"
